@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mainbox {
+  background-color: #077f5b;
+  display: flex;
+  width: 50%;
+  height: 35vh;
+  margin: 20px auto;
+}
+
+.text-section p {
+  margin-right: 30px;
+  color: #fff;
+  font-size: 15px;
+  padding-top: 40px;
+  line-height: 20px;
+}
+
+.sunshade img {
+  margin: -12px 40px;
+  width: 270px;
+  height: 110%;
+  border-radius: 15px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.19);
+}
+
+input {
+  height: 15px;
+  accent-color: #077f5b;
+  width: 25px;
+}
+
+.radios {
+  margin-left: 725px;
+}
+
+.fas {
+color: white;
+position: absolute;
+}
+
+.fa1 {
+  margin-top: 105px;
+  margin-left: -10px;
+}
+
+.fa2 {
+  margin-top: 105px;
+  margin-left: 747px;
+}
